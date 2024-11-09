@@ -28,20 +28,30 @@
         <input type="text" id="faculty" name="faculty" required><br><br>
 
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email"><br><br>
+        <input type="email" id="email" name="email" required><br><br>
         
         <label for="date">วันเกิด:</label>
         <input type="date" id="date" name="date"required> <br><br>
 
-        
+        <label for="book interesting">หนังสือที่สนใจ:</label>
+        <select name="book interesting">
+            <option value="นิยายและวรรณกรรม">นิยายและวรรณกรรม</option>
+            <option value="วิทยาการและเทคโนโลยี">วิทยาการและเทคโนโลยี</option>
+            <option value="ประวัติศาสตร์และวัฒนธรรม">ประวัติศาสตร์และวัฒนธรรม</option>
+            <option value="การศึกษาและการเรียนรู้">การศึกษาและการเรียนรู้</option>
+            <option value="ธุรกิจและการเงิน">ธุรกิจและการเงิน</option>
+            <option value="สุขภาพและการดูแลรักษา">สุขภาพและการดูแลรักษา</option>
+            <option value="ศาสนาและปรัชญา">ศาสนาและปรัชญา</option>
+        </select>
+        <br><br>
 
          
         </fieldset>
         <br>
 
         <fieldset>
-            <legend>Agreement</legend>
-            <label for="newsletter">I agree to terms and conditions:</label>
+            <legend>ข้อตกลง</legend>
+            <label for="newsletter">ความต้องการรับข่าวสารข้อมูลของห้องสมุดทางอีเมลหรือไม่:</label>
          <input type="checkbox" id="newsletter" name="newsletter"
          value="yes" ><br><br>
         </fieldset><br>
